@@ -1,0 +1,13 @@
+
+// 激活java插件
+apply plugin: 'java'
+
+// 添加maven仓库
+repositories {
+    // 应用 maven central repo
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
